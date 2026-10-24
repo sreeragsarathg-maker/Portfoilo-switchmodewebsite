@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-theme="professional">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>Sreerag Sarath — Developer &amp; Cybersecurity Enthusiast</title>
+    <meta name="description" content="Portfolio of Sreerag Sarath — BSc Physics student, full-stack developer in training, and cybersecurity enthusiast. Building web applications and exploring security." />
+    <meta name="keywords" content="Sreerag Sarath, developer, portfolio, full-stack, React, Node.js, cybersecurity, Calicut University" />
+    <meta name="author" content="Sreerag Sarath" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sreerag Sarath — Developer Portfolio" />
+    <meta property="og:description" content="Full-stack developer & cybersecurity enthusiast. BSc Physics student. Building things that matter." />
+    <meta property="og:type" content="website" />
+
+    <!-- Prevent flash of wrong theme -->
+    <script>
+      (function() {
+        try {
+          var theme = localStorage.getItem('portfolio-theme') || 'professional';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
